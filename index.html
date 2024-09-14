@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web - MarketSpot</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img class="logo" src="/img/logo.jpg" alt="logo">
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#sobre">Quienes Somos</a></li>
+                <li><a href="#producto">Producto</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <div class="carrito" id="carrito-icono" onclick="mostrarOcultarCarrito()">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <span class="agregar" id="carrito-cantidad">0</span>
+                </div> 
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+        <div class="banner">
+            <img src="/img/banner.png" alt="banner">
+            <div class="texto" id="sobre">
+                <h1>MarketSpot - ForMen</h1>
+                <p class="slogan">Descubre, Compra y Disfruta</p>
+            </div>
+        </div>
+        <div class="quienes">
+            <h2></h2>
+            <div class="somos" >
+                <p class="pa">Somos una tienda online donde descubrirás un nuevo nivel de cuidado personal masculino. Ya sea que estés buscando productos para el cuidado del cabello, la piel o el afeitado, estamos aquí para ayudarte a lucir y sentirte en tu mejor versión, todos los días
+                </p>
+                <img class="imga" src="/img/images.jpg" alt="tiendavirtual">
+            </div>
+        </div>
+        <div class="titulo" id="producto">
+            <h2></h2>
+        </div>
+            <div class="container-card">
+                <div class="product-card">
+                    <div class="card">
+                        <img src="/img/comboo1.png" alt="promo" class="producto-img">
+                        <div class="product-info">
+                            <h3 class="product-title">Minoxidil + 1 Gotero</h3>
+                            <p class="product-description">Tratamiento para 1 Mes</p>
+                            <p class="product-price">S/45</p>
+                            <button class="product-button">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card">
+                        <img src="/img/comboo2.png" alt="promo" class="producto-img">
+                        <div class="product-info">
+                            <h3 class="product-title">2 Minoxidil + 1 Gotero</h3>
+                            <p class="product-description">Tratamiento para 2 Meses</p>
+                            <p class="product-price">S/85</p>
+                            <button class="product-button">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card">
+                        <img src="/img/comboo3.png" alt="promo" class="producto-img">
+                        <div class="product-info">
+                            <h3 class="product-title">3 Minoxidil + 1 Gotero</h3>
+                            <p class="product-description">Tratamiento para 3 Meses</p>
+                            <p class="product-price">S/125</p>
+                            <button class="product-button">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card">
+                        <img src="/img/comboo4.png" alt="promo" class="producto-img">
+                        <div class="product-info">
+                            <h3 class="product-title">6 Minoxidil + 1 Gotero</h3>
+                            <p class="product-description">Tratamiento para 6 Meses.</p>
+                            <p class="product-price">S/230</p>
+                            <button class="product-button">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="container-mapa" id="contacto"></div>
+            <h2></h2>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6589.877103943052!2d-76.13993673310623!3d-13.423270705783196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses-419!2spe!4v1725060978450!5m2!1ses-419!2spe" width="700" height="540" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contac">
+                <form class="formt">
+                    <h2>Escribenos y resuelve tus dudas.</h2>
+                    <input type="text" name="Nombre" placeholder="Escriba su Nombre" required>
+                    <input type="text" name="Apellido" placeholder="Escribe tu Apellido" required>
+                    <input type="email" name="Email" placeholder="example@" required>
+                    <input type="text" name="Celular" placeholder="Celular" required>
+                    <textarea name="Mensaje" rows="4" placeholder="Escribe tu pregunta"></textarea>
+                    <button class="boton" type="submit" value="submit" >Enviar</button>
+                </form>
+            </div>
+        </div>
+        </main>
+        <div class="scrol">
+        </div>
+        <footer>
+            <ul class="redes">
+                <li><a href="https://www.facebook.com/MarkettSpott"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/markettspott/#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+            </ul>
+            <ul class="men">
+                <li><a href="politica.html">Politicas y Privacidad</a></li>
+                <li><a href="termino.html">Terminos y Condiciones</a></li>
+                <li><a href="#">Producto</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <p>© 2024 MarketSpot. Todos los derechos reservados.</p>
+        </footer>
+
+    <script type ="module" src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src =" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "></script>
+    <script src="/js/menu.js"></script>
+</body>
+</html>
